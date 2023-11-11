@@ -12,7 +12,9 @@ body {
 }
 
 .container {
-    padding: 14px 120px 
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header{
@@ -23,6 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 76px;
 }
 
 .header__list {
@@ -108,6 +111,12 @@ body {
     font-weight: 700;
     line-height: 56px;
 }
+.hero__subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #494949;
+}
 .text-color{
     color: #494949;
 }
@@ -186,6 +195,7 @@ body {
 .what-else__item{
     position: relative;
     margin-bottom: 16px;
+    margin-left: 32px;
 }
 .what-else__item::before{
     content: '';
@@ -291,7 +301,7 @@ body {
     max-width: 691px;
     margin-bottom: 24px;
 }
-span{
+.execise-span{
     position: relative;
     color: #2963A3;
     font-size: 14px;
@@ -300,7 +310,7 @@ span{
     margin-right: 16px;
 }
 
-span::after{
+.execise-span::after{
 position: absolute;
 content: '·';
 right: -13px;
@@ -308,7 +318,6 @@ top: -2px;
 }
 .what-else{
     padding-bottom: 48px;
-    border-bottom: 1px solid #DEDEDE;
 }
 .item-1{
     max-width: 282px;
@@ -350,6 +359,7 @@ top: -2px;
     border-radius: 16px;
     border: 1px solid #DEDEDE;
     background: #FFF;
+    margin-bottom: 28px;
 }
 .item-2__img-block{
     position: relative;
@@ -436,6 +446,160 @@ line-height: 18px;
     height: 24px;
     top: 0;
     left: -33px;
+}
+.item-3{
+    margin-bottom: 42px;
+}
+.item-4{
+    position: relative;
+    border-radius: 24px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 30px 50px 0px #EFF5FB;
+    padding: 32px;
+}
+.item-4__img-block{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.item-4__title{
+    font-family: Open Sans;
+    color: #2963A3;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.item-4__text{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+    max-width: 196px;
+}
+.item-4__price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.item-4__btn{
+    max-width: 108px;
+}
+.question{
+    position: relative;
+    margin-bottom: 82px;
+    border-top: 1px solid #DEDEDE;
+    padding-top: 72px;
+}
+.question::after{
+    position: absolute;
+    content: '';
+    background-image: url(images/img/question-img.png);
+    width: 520px;
+    height: 330px;
+    top: 72px;
+    right: 0;
+
+}
+
+.question__title{
+    max-width: 348px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 24px;
+}
+.question__text{
+    max-width: 327px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.question__btn{
+    width: auto;
+    padding: 20px 24px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    background:#16C8BB;
+}  
+.footer{
+    padding: 40px 120px 17px;
+    background: #2963A3;
+    color: white;
+    margin-top: 158px;
+    color: #FFF;
+
+} 
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(157, 157, 157, .3); 
+    margin-bottom: 16px;
+}
+
+.footer__item-3{
+    max-width: 486px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input{
+    max-width: 384px;
+    padding: 14px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(157, 157, 157, 0.20)
+}
+input::placeholder{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    color:#9D9D9D;
+}
+
+
+.footer__text{
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 356px;
+}
+.footer__agreement{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    opacity: 0.7;
+}
+.footer-item__list{
+    margin-bottom: 34px;
+}
+.footer-item__item{
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-item__link{
+    color:inherit;
+}
+.footer__logos{
+    margin-bottom: 40px;
+}
+.footer__social{
+    display: flex;
+    gap: 16px;
+}
+.documents-pay__link{
+    margin-right: 48px;
+    color:inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
 }
 
 
