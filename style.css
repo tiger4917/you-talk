@@ -148,29 +148,29 @@ body {
     top: 0;
     left: -33px;
 }
-.heading3__title{
+.top__title{
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     margin-bottom: 16px;
 }
-.heading3__text{
+.top__text{
     max-width: 690px;
     margin-bottom: 40px;
 }
-.heading3__quote{
+.top__quote{
     padding: 34px 24px 24px 24px;
     max-width: 690px;
     border-radius: 16px;
     background: var(--blue-b-80, #F3F7FE);
     margin-bottom: 24px;
 }
-.heading3__quote-text{
+.top__quote-text{
     position: relative;
     font-style: italic;
     margin-bottom: 8px;
 }
-.heading3__quote-text::after{
+.top__quote-text::after{
     content: '';
     position: absolute;
     background-image: url(images/img_svg/quote.svg);
@@ -179,7 +179,7 @@ body {
     top: -8px;
     left: 0;
 }
-.heading3__quote-span{
+.top__quote-span{
     font-weight: 700;
 }
 .what-else__title{
